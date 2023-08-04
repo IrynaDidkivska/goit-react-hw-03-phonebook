@@ -31,7 +31,7 @@ export class App extends React.Component {
     }
   }
 
-  //Додаємо контакт
+  //Додаємо новий контакт
   addNewContact = newContact => {
     const { contacts } = this.state;
     const checkContact = contacts.find(
