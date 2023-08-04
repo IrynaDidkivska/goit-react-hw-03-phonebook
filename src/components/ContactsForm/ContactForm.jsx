@@ -42,7 +42,7 @@ export class ContactForm extends React.Component {
             required
             onChange={this.hendleAddInput}
             placeholder="Name Surname"
-            autoFocus="on"
+            autoFocus
           />
         </label>
         <label htmlFor="name">
